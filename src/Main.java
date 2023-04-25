@@ -1,12 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        SolarSystem solar = SolarSystem.valueOf("SATURN");
-        System.out.println(solar.getNum());
-        System.out.println(solar.getDistanceFromPrevPlanet());
-        System.out.println(solar.getDistanceFromSun());
-        System.out.println(solar.getRadius());
-        System.out.println(solar.getPrevPlanet());
-        System.out.println(solar.getNextPlanet());
+        SolarSystem mercury = SolarSystem.MERCURY;
+        SolarSystem venus = SolarSystem.VENUS;
+        SolarSystem earth = SolarSystem.EARTH;
+        SolarSystem mars = SolarSystem.MARS;
+        SolarSystem jupiter = SolarSystem.JUPITER;
+        SolarSystem saturn = SolarSystem.SATURN;
+        SolarSystem uranus = SolarSystem.URANUS;
+        SolarSystem neptune = SolarSystem.NEPTUNE;
+
+
+        System.out.println(uranus.getNum());
+        System.out.println(uranus.getDistanceFromPrevPlanet());
+        System.out.println(uranus.getDistanceFromSun());
+        System.out.println(uranus.getRadius());
+        System.out.println(uranus.getPrevPlanet());
+        System.out.println(uranus.getNextPlanet());
 
     }
 
